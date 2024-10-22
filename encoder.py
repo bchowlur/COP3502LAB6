@@ -1,3 +1,5 @@
+# Name: Bharath Chowlur
+
 def encode(password):
     encoded_password = ""
     for digit in password:
