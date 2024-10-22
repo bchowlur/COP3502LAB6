@@ -1,6 +1,7 @@
 # Name: Bharath Chowlur
 
 from encoder import encode
+from decoder import decode
 
 
 def main():
@@ -26,7 +27,9 @@ def main():
                 print("Invalid password. Please enter exactly 8 digits.")
 
         elif choice == "2":
-            pass
+            print(
+                f"The encoded password is {encoded_password}, and the original password is {decode(encoded_password)}."
+            )
         else:
             print("Invalid option. Please try again.")
 
