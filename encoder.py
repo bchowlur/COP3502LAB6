@@ -6,6 +6,3 @@ def encode(password):
         new_digit = (int(digit) + 3) % 10
         encoded_password += str(new_digit)
     return encoded_password
-
-def decode(encoded_password):
-    pass
